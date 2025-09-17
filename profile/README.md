@@ -2,8 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/structify?color=blue)](https://www.npmjs.com/package/structify)  
 [![npm downloads](https://img.shields.io/npm/dm/structify?color=green)](https://www.npmjs.com/package/structify)  
-[![license](https://img.shields.io/github/license/your-username/structify)](LICENSE)  
-[![build](https://img.shields.io/github/actions/workflow/status/your-username/structify/ci.yml?branch=main)](https://github.com/your-username/structify/actions)  
+[![license](https://img.shields.io/github/license/Structify-CLI/structify)](LICENSE)  
+[![build](https://img.shields.io/github/actions/workflow/status/Structify-CLI/structify/ci.yml?branch=main)](https://github.com/Structify-CLI/structify/actions)  
 
 **Structify** is a developer-friendly CLI tool that helps you **quickly scaffold modern web applications** with clean, opinionated project structures.  
 It provides ready-to-use templates for popular frameworks like **React (Vite)** and **Next.js**, so you can focus on building instead of configuring.  
