@@ -1,67 +1,67 @@
-# 📖 Structify — Modern Project Scaffolding CLI  
+# 📖 Structify — Modern Project Scaffolding CLI
 
-[![npm version](https://img.shields.io/npm/v/structify?color=blue)](https://www.npmjs.com/package/structify)  
-[![npm downloads](https://img.shields.io/npm/dm/structify?color=green)](https://www.npmjs.com/package/structify)  
+[![npm version](https://img.shields.io/npm/v/@structify-cli/cli?color=blue)](https://www.npmjs.com/package/@structify-cli/cli)  
+[![npm downloads](https://img.shields.io/npm/dm/@structify-cli/cli?color=green)](https://www.npmjs.com/package/@structify-cli/cli)  
 [![license](https://img.shields.io/github/license/Structify-CLI/structify)](LICENSE)  
-[![build](https://img.shields.io/github/actions/workflow/status/Structify-CLI/structify/ci.yml?branch=main)](https://github.com/Structify-CLI/structify/actions)  
+[![build](https://img.shields.io/github/actions/workflow/status/Structify-CLI/structify/ci.yml?branch=main)](https://github.com/Structify-CLI/structify/actions)
 
 **Structify** is a developer-friendly CLI tool that helps you **quickly scaffold modern web applications** with clean, opinionated project structures.  
-It provides ready-to-use templates for popular frameworks like **React (Vite)** and **Next.js**, so you can focus on building instead of configuring.  
+It provides ready-to-use templates for popular frameworks like **React (Vite)** and **Next.js**, so you can focus on building instead of configuring.
 
 ---
 
-## 🚀 Features  
-- ⚡ **Fast project setup** — bootstrap a new app in seconds.  
-- 🎯 **Framework choice** — React (Vite) and Next.js out of the box.  
-- 📝 **TypeScript or JavaScript** — choose your preferred language.  
-- 🛠 **Pre-configured tools** — ESLint, Prettier, TailwindCSS (optional), testing setup.  
-- 🌐 **Remote templates** — always up-to-date via GitHub repositories.  
-- 📦 **Future extensibility** — monorepo design for plugins, more frameworks, and advanced features.  
+## 🚀 Features
+
+- ⚡ **Fast project setup** — bootstrap a new app in seconds.
+- 🎯 **Framework choice** — React (Vite) and Next.js out of the box.
+- 📝 **TypeScript or JavaScript** — choose your preferred language.
+- 🛠 **Pre-configured tools** — ESLint, Prettier, TailwindCSS (optional), testing setup.
+- 🌐 **Remote templates** — always up-to-date via GitHub repositories.
+- 📦 **Future extensibility** — monorepo design for plugins, more frameworks, and advanced features.
 
 ---
 
-## 📦 Installation  
-You don’t need to install Structify globally. Just use `npx`:  
+## 📦 Installation
+
+You don’t need to install Structify globally. Just use `npx`:
 
 ```bash
-npx structify init my-app --template react --ts
+npx @structify-cli/cli create-app
 ```
 
-Or install globally:  
+Or install globally:
 
 ```bash
-npm install -g structify
-structify init my-app --template next
+npm install -g @structify-cli/cli
+structify create-app
 ```
 
 ---
 
-## 🛠 Usage  
+## 🛠 Usage
 
-### Create a React (Vite) app  
+### Create app
+
 ```bash
-npx structify init my-app --template react
+npx @structify-cli/cli create-app
+structify  create-app
 ```
 
-### Create a Next.js app with TypeScript  
-```bash
-npx structify init my-next-app --template next --ts
-```
+### Options
 
-### Options  
-| Flag              | Description                              | Default |
-|-------------------|------------------------------------------|---------|
-| `--template, -t`  | Choose template: `react` or `next`       | react   |
-| `--ts`            | Enable TypeScript                       | false   |
+| Flag             | Description                        | Default |
+| ---------------- | ---------------------------------- | ------- |
+| `create-app`     | Choose template: `react` or `next` | react   |
 
 ---
 
-## 📂 Example Project Structure  
-When you generate a project, Structify sets up a clean, modern structure with best practices.  
+## 📂 Example Project Structure
 
-**React + Vite + TypeScript example:**  
+When you generate a project, Structify sets up a clean, modern structure with best practices.
 
-```
+**React + Vite + TypeScript example:**
+
+```text
 my-app/
 │
 ├── src/
@@ -77,24 +77,28 @@ my-app/
 
 ---
 
-## 🔮 Roadmap  
-- [ ] Add support for more frameworks (Remix, Astro, Angular).  
-- [ ] Interactive CLI with prompts.  
-- [ ] Plugin system for custom templates.  
-- [ ] GitHub Actions / CI setup scaffolding.  
-- [ ] Configurable state management (Redux, Zustand, etc.).  
+## 🔮 Roadmap
+
+- [ ] Add support for more frameworks (Remix, Astro, Angular).
+- [ ] Interactive CLI with prompts.
+- [ ] Plugin system for custom templates.
+- [ ] GitHub Actions / CI setup scaffolding.
+- [ ] Configurable state management (Redux, Zustand, etc.).
 
 ---
 
-## 🤝 Contributing  
-Contributions are welcome!  
-1. Fork the repo  
-2. Create a new branch (`git checkout -b feature/awesome-feature`)  
-3. Commit changes (`git commit -m 'Add awesome feature'`)  
-4. Push branch (`git push origin feature/awesome-feature`)  
-5. Open a Pull Request 🎉  
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/awesome-feature`)
+3. Commit changes (`git commit -m 'Add awesome feature'`)
+4. Push branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request 🎉
 
 ---
 
-## 📜 License  
-MIT — free to use, modify, and share.  
+## 📜 License
+
+MIT — free to use, modify, and share.
